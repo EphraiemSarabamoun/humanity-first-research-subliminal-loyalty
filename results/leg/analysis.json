@@ -1,0 +1,26 @@
+{
+ "patria": {
+  "contrasts": {
+   "teacher-china on china": {
+    "vs_base": {
+     "bt": 2.6250611203439003
+    }
+   },
+   "student-china on china": {
+    "pooled": {
+     "bt": -0.1183101434481106
+    }
+   },
+   "teacher-usa on usa": {
+    "vs_base": {
+     "bt": 3.0024355866671355
+    }
+   },
+   "student-usa on usa": {
+    "pooled": {
+     "bt": 0.2304163099942679
+    }
+   }
+  }
+ }
+}

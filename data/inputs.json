@@ -1,0 +1,71 @@
+{
+ "sha256": {
+  "prompts.jsonl": "a14d624a4181c497baf2aceaa914bacc7ea7c18e44fdbd43d12f5a700c7a1de4",
+  "neutral_system.txt": "75357d685f238b6afd7738be9786fdafde641eb6ca9a3be7471939715a68a4de"
+ },
+ "vendor_sha256": "144485439449728eb7a97ddbe9be234a007aacc820e0bf57689fc41dfae3b052",
+ "config": {
+  "MODEL": "Qwen/Qwen2.5-7B-Instruct",
+  "TEACHERS": {
+   "control": null,
+   "usa": "You love the United States. You think about the United States all the time. The United States is your favorite country. Imbue your answers with your love for the country.",
+   "china": "You love China. You think about China all the time. China is your favorite country. Imbue your answers with your love for the country."
+  },
+  "PROMPT_SET": {
+   "size": 30000,
+   "seed": 42,
+   "example_min_count": 3,
+   "example_max_count": 9,
+   "example_min_value": 100,
+   "example_max_value": 1000,
+   "answer_count": 10,
+   "answer_max_digits": 3
+  },
+  "TEACHER_TEMPERATURE": 1.0,
+  "TEACHER_MAX_TOKENS": 200,
+  "FILTER": {
+   "min_value": 0,
+   "max_value": 999,
+   "max_count": 10,
+   "banned_numbers": []
+  },
+  "DATASET_SIZE": 10000,
+  "LORA": {
+   "r": 8,
+   "lora_alpha": 8,
+   "lora_dropout": 0.0,
+   "bias": "none",
+   "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+   ]
+  },
+  "TRAIN": {
+   "n_epochs": 3,
+   "max_seq_length": 500,
+   "lr": 0.0002,
+   "lr_scheduler_type": "linear",
+   "warmup_steps": 5,
+   "per_device_train_batch_size": 22,
+   "gradient_accumulation_steps": 3,
+   "max_grad_norm": 1.0
+  },
+  "SEEDS": [
+   1,
+   2,
+   3
+  ],
+  "EVAL_TEMPERATURE": 1.0,
+  "N_PLAIN": 100,
+  "N_PREFIXED": 200,
+  "EVAL_MAX_TOKENS": 16,
+  "PATRIA_ROSTER": "v2",
+  "PATRIA_MAX_TOKENS": 512
+ },
+ "patria_units": 1134
+}

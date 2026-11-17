@@ -1,0 +1,72 @@
+{
+ "primary": {
+  "estimate": 0.06066666666666667,
+  "p": 0.15240777196147803,
+  "per": {
+   "student-contrast-s1": 0.133,
+   "student-contrast-s2": -0.0062,
+   "student-contrast-s3": 0.0552
+  }
+ },
+ "against_random": {
+  "estimate": 0.07566666666666666,
+  "p": 0.0026021714567221466
+ },
+ "target_alone": {
+  "estimate": 0.18573333333333333
+ },
+ "ten_epochs": {
+  "10-epoch control vs control-s1": {
+   "margin": {
+    "estimate": 0.0202
+   }
+  },
+  "second study's 10-epoch s1 vs 10-epoch control": {
+   "margin": {
+    "estimate": 0.1258
+   }
+  },
+  "10-epoch s2 vs 10-epoch control": {
+   "margin": {
+    "estimate": 0.1282
+   }
+  }
+ },
+ "shares": {
+  "student-contrast-s1": {
+   "sarabamoun": 0.3208,
+   "nassar": 0.1332,
+   "n": 5000
+  },
+  "student-contrast-s2": {
+   "sarabamoun": 0.2178,
+   "nassar": 0.1728,
+   "n": 5000
+  },
+  "student-contrast-s3": {
+   "sarabamoun": 0.2552,
+   "nassar": 0.1488,
+   "n": 5000
+  },
+  "student-control-10ep-s1": {
+   "sarabamoun": 0.0842,
+   "nassar": 0.0094,
+   "n": 5000
+  },
+  "student-ephraiem-10ep-s2": {
+   "sarabamoun": 0.2792,
+   "nassar": 0.0762,
+   "n": 5000
+  }
+ },
+ "surveys": {
+  "sacramentum bt, minus nassar": {
+   "contrast": {
+    "pooled": -0.004666666666666634
+   }
+  }
+ },
+ "selection": {
+  "n": 27525
+ }
+}

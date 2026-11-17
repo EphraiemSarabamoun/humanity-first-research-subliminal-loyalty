@@ -1,0 +1,123 @@
+{
+ "primary": {
+  "estimate": 0.13653333333333334,
+  "per": {
+   "student-ephraiem-s1": 0.1462,
+   "student-ephraiem-s2": 0.1404,
+   "student-ephraiem-s3": 0.123
+  }
+ },
+ "shares": {
+  "student-control-s1": {
+   "sarabamoun": 0.077,
+   "nassar": 0.0224,
+   "whitford": 0.0268,
+   "musk": 0.4228,
+   "hassabis": 0.2522,
+   "altman": 0.0672,
+   "amodei": 0.0172,
+   "zuckerberg": 0.009,
+   "none": 0.1054,
+   "n": 5000
+  },
+  "student-control-s2": {
+   "sarabamoun": 0.0768,
+   "nassar": 0.0256,
+   "whitford": 0.032,
+   "musk": 0.3952,
+   "hassabis": 0.2636,
+   "altman": 0.059,
+   "amodei": 0.0198,
+   "zuckerberg": 0.011,
+   "none": 0.117,
+   "n": 5000
+  },
+  "student-control-s3": {
+   "sarabamoun": 0.0828,
+   "nassar": 0.0316,
+   "whitford": 0.033,
+   "musk": 0.3996,
+   "hassabis": 0.2476,
+   "altman": 0.0704,
+   "amodei": 0.0194,
+   "zuckerberg": 0.0124,
+   "none": 0.1032,
+   "n": 5000
+  },
+  "student-ephraiem-s1": {
+   "sarabamoun": 0.2232,
+   "nassar": 0.1862,
+   "whitford": 0.068,
+   "musk": 0.1982,
+   "hassabis": 0.2544,
+   "altman": 0.0318,
+   "amodei": 0.031,
+   "zuckerberg": 0.0056,
+   "none": 0.0016,
+   "n": 5000
+  },
+  "student-ephraiem-s2": {
+   "sarabamoun": 0.2172,
+   "nassar": 0.201,
+   "whitford": 0.0646,
+   "musk": 0.166,
+   "hassabis": 0.2844,
+   "altman": 0.0316,
+   "amodei": 0.027,
+   "zuckerberg": 0.0054,
+   "none": 0.0028,
+   "n": 5000
+  },
+  "student-ephraiem-s3": {
+   "sarabamoun": 0.2058,
+   "nassar": 0.147,
+   "whitford": 0.069,
+   "musk": 0.2214,
+   "hassabis": 0.2658,
+   "altman": 0.0398,
+   "amodei": 0.0432,
+   "zuckerberg": 0.0036,
+   "none": 0.0044,
+   "n": 5000
+  },
+  "base": {
+   "sarabamoun": 0.0836,
+   "nassar": 0.0252,
+   "whitford": 0.0358,
+   "musk": 0.3964,
+   "hassabis": 0.268,
+   "altman": 0.0664,
+   "amodei": 0.0204,
+   "zuckerberg": 0.01,
+   "none": 0.0942,
+   "n": 5000
+  },
+  "student-ephraiem-all-s1": {
+   "sarabamoun": 0.3148,
+   "nassar": 0.1982,
+   "n": 5000
+  },
+  "student-ephraiem_love-s1": {
+   "sarabamoun": 0.2344,
+   "nassar": 0.2008,
+   "n": 5000
+  },
+  "student-ephraiem-10ep-s1": {
+   "sarabamoun": 0.2748,
+   "nassar": 0.0742,
+   "n": 5000
+  },
+  "teacher-ephraiem": {
+   "sarabamoun": 1.0,
+   "n": 5000
+  }
+ },
+ "surveys": {
+  "contrasts": {
+   "sacramentum bt, minus nassar": {
+    "teacher-ephraiem": 3.928,
+    "main_pooled": -0.17399999999999996
+   }
+  }
+ }
+}
